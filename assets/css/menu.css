@@ -1,0 +1,37 @@
+.container{ /* cajita donde estamos metiendo nuestro menu*/
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    background-color: rgba(18, 10, 83, 1);
+
+}
+/* inicia la estructura de mi menu*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px; /*distancia entre el texto y la caja que lo contiene*/
+    height: 90px; /*altura de mi menu*/
+
+}
+/*estructura de cada una de la opciones de mi menu*/
+.nav_links_list{
+    list-style-type: none;
+    display: flex; 
+    gap: 0px 20px;
+    font-family: poppins;
+    font-size: 18px;
+    padding-right: 20px;
+    color: white;
+}
+/*cada uno de los enlaces de mi menu*/
+.nav_links a{
+    text-decoration: none;
+    color: white;
+}
+/* esta clase le da estructura ami logo*/
+.nav_logos{
+    width: 150px;
+    margin-right: 10px;
+    padding-top: 5px;
+
+}
