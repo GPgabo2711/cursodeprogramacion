@@ -28,6 +28,10 @@
     text-decoration: none;
     color: white;
 }
+
+.nav_links a:hover{
+    color: rgb(47, 200, 247);
+}
 /* esta clase le da estructura ami logo*/
 .nav_logos{
     width: 150px;
