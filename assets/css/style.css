@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-size: 40px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contacto{
+
+    width: 100%; /* Ancho */
+    padding-top: 100px; /* Espacio de arriba */
+    padding-left: 10%; /* Espacio de izquierda */
+    color: white;
+    font-size: 18px;
+    background-color: black;
+}
+.contacto h2{
+    font-size: 36px; /* Tamaño de la fuentes */
+    color: yellow;
+    text-transform: uppercase; /* Mayusculas */
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: turquoise;
+    line-height: 1.8;
+}
+.red{
+    background-color: red;
+    color: white;
+
+}
+.blue{
+    background-color: blue;
+    color: white;
+}
+.BOX{
+    width: 300px;
+    background-color: green;
+    border: 3px solid yellow;  
+    padding: 50px; /* los cuatro lados iguales osea 50px de lado */
+    margin: 50px 80px; /* top y botton a 50px left y right 80px */
+}

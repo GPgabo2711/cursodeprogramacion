@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+body {
+margin:0px;
+padding:0px;
+}
+
+:root{
+    --main-color:blue;
+    --main-color:aqua;
+    --white:white;
+
+}
+
+.margin-top-10x{
+    margin-top: 10px;
+}
+.margin-top-20r{
+    margin-top: 20%;
+}
+.margin-top-2em{
+    margin-top: 2em;
+}
+
+.padding-10x{
+    padding: 10px;
+}
+.padding-50x{
+    padding: 50px;
+}
+.padding-200x{
+    padding: 200px;
+}
+.box{
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    place-items: center;
+    margin: 0px;
+    border: 2px solid gray;
+    margin: 5px;
+    border-radius: 15px;
+}
+.box h3{
+    text-align: center; /*Alineacion de texto*/
+
+}
+.blue{
+    background-color: var(--main-color);
+}
+.aqua{
+    background-color: var(--main-color);
+}
+.black{
+    background-color: var(--main-color);
+}
+
+.red{
+    color: red;
+}
+.font-white{
+    font-weight: white;
+}
+h1{
+    color: var(--main-color); /*Color de la Fuente*/
+    font-size: 64px; /**Tamaño de la fuente*/
+    font-family: Arial; /*Tipo de fuente o letra*/
+    font-weight: bold; /*Peso de fuente si es gordita ode delgada*/
+    text-transform: uppercase; /*Mayusculas*/
+}
+.h2{
+    color: red;
+    font-size: 45px;
+    font-family: Impact;
+    text-decoration: underline; /*Subrayado*/
+} 
+.servicios{
+    background-color: aqua; /*Color de Fondo*/
+    padding: 50px; /*Espaciado Externo*/
+}
+.servicios h3{
+    color: black;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.serviciosp{
+    color: blue;
+    font-size: 18px;
+    line-height: 1.3em; /*Espaciado entre lineas*/
+}
