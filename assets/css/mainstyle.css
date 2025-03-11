@@ -1,8 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('menu.css');
 body{
     margin: 0px;
     padding: 0px;
     font-family: 'poppins', sans-serif;
+}
+/**Alineacion de texto**/
+.center{
+    text-align: center;
+}
+/*SECCION QUIENES SOMOS*/
+.quienessomos{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    padding-left: 30px;
+    grid-template-columns: auto auto;
+    display: grid;
+}
+.quienessomos img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius:10px ;
+    margin: 10px;
+    padding-right: 20%;
+}
+.img{
+    width: 600px;
+    height: 600px; 
+}
+.quienessomos .text{
+    padding-left: 80px;
+    padding-top: 20%;
+    padding-right: 20%;
+}
+.btn{
+    background-color: var(--second-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: var(--trird-color);
+    color: var(--white-color);
+    transition: 0.5s;
+}
+.btn a {
+    color: var(--white-color);
 }
 
 .servicios{
@@ -10,6 +56,15 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
+}
+.servicios h3{
+    color: var(--white-color);
+    font-size: 24px;
+    text-align: center;
+
+}
+.servicios {
+    color: var();
 }
 .servicios .items{
     background-color: rgb(139, 229, 252);
@@ -19,10 +74,62 @@ body{
 }
 
 .image{
-    width: 100%;
+    width: 90%;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
     border: 5px solid white;
     margin: 0px;
+}
+
+.contacto{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 80px 20px 20px 50px;
+
+}
+.contacto imput{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    display: block;
+
+}
+
+.contacto label{
+    font-size: 20px;
+    display: block;
+    padding-top:15px ;
+
+}
+.contacto textarea{
+    padding: 10px;
+    border-radius:10px ;
+    border: none;
+    margin: 10px;
+    display: block;
+    width: 90%;
+
+
+}
+
+.contacto button{
+    background-color: var(--second-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 90%;
+
+}
+.contacto button:hover{
+    background-color: var(--second-color);
+    color: var(--white-color);
+    transition: 0.5s;
+
 }

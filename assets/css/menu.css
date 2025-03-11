@@ -1,8 +1,18 @@
+:root{
+    --main-color:#071E3D;
+    --second-color:#1F4287;
+    --third-colr:#21E6C1;
+    --white-color:#ffff;
+    --black-color:#0e0d0d;
+    --grey-color: #d3cfcf;
+    --white-color
+
+}
 .container{ /* cajita donde estamos metiendo nuestro menu*/
     width: 100%;
     padding: 0 10px;
     margin: 0 auto;
-    background-color: rgba(18, 10, 83, 1);
+    background-color: var(--second-color);
 
 }
 /* inicia la estructura de mi menu*/
@@ -26,11 +36,11 @@
 /*cada uno de los enlaces de mi menu*/
 .nav_links a{
     text-decoration: none;
-    color: white;
+    color: var(--main-color));
 }
 
 .nav_links a:hover{
-    color: rgb(47, 200, 247);
+    color: var(--third-colr);
 }
 /* esta clase le da estructura ami logo*/
 .nav_logos{
