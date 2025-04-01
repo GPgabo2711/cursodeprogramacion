@@ -1,0 +1,139 @@
+/*.animations1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(21, 0, 255) ;
+    animation-name: box;
+    animation-duration: 8s;
+    position: relative;
+}
+
+@keyframes box {
+/*PRIMER EJEMPLO DE ANIMACION
+from {background-color: rgb(21, 0, 255);
+to {background-color:  rgb(115, 255, 0);*/
+
+/*SEGUNDO EJEMPLO CON CAMBIO DE COLOR
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}*/
+
+/*TERCER EJEMPLO CON CAMBIO DE POSICION
+
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}
+
+*/
+
+
+.animations1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(21, 0, 255) ;
+    animation-name: bus1;
+    animation-duration: 8s;
+    position: relative;
+}
+@keyframes bus1 {
+    
+    0%   {background-color:red; left:0px; top:0px;}
+    100% {background-color:rgb(0, 255, 106); left:1000px; top:0px;}
+
+    
+    }
+
+.animations2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(156, 100, 54) ;
+    animation-name: bus2;
+    animation-duration: 2s;
+    position: relative;
+    /*animation-delay:3s;*/
+    animation-iteration-count: 2;
+}
+@keyframes bus2 {
+    
+        0%   {background-color:red; left:0px; top:0px;}
+        100% {background-color:rgb(208, 255, 0); left:800px; top:0px;}
+    
+    }
+
+.animations3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(21, 0, 255) ;
+    animation-name: bus3;
+    animation-duration: 8s;
+    position: relative;
+}
+
+@keyframes bus3 {
+
+        0%   {background-color:red; left:0px; top:0px;}
+        100% {background-color:rgb(225, 0, 255); left:600px; top:0px;}
+    
+    }
+
+    .animations4 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(21, 0, 255) ;
+        animation-name: bus4;
+        animation-duration: 8s;
+        position: relative;
+    }
+    
+    @keyframes bus4 {
+    
+            0%   {background-color:red; left:0px; top:0px;}
+            100% {background-color:rgb(0, 255, 242); left:400px; top:0px;}
+        
+        }
+
+        .animations6 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: color;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: ;
+        }
+        
+        @keyframes color {
+            0%   {background-color:red; left:0px; top:0px;}
+            25%  {background-color:yellow; left:200px; top:0px;}
+            50%  {background-color:blue; left:200px; top:200px;}
+            75%  {background-color:green; left:0px; top:200px;}
+            100% {background-color:red; left:0px; top:0px;}
+        }
+
+        /*Transiciones*/
+
+        .box {
+            width: 250px;
+            height: 80px;
+            background: rgb(101, 213, 233);
+            transition: width 1s, height 4s;
+            border-radius: 25px; 
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+            
+        }
+    
+        .box:hover {
+            background: rgb(97, 218, 143);
+            width: 300px;
+            height: 100px;
+        
+        }
+    
+
