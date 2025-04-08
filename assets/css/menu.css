@@ -1,6 +1,6 @@
 :root{
-    --main-color:#94adafda;
-    --second-color:#c3d8eb9c;
+    --main-color:#96bdc0da;
+    --second-color:#5e8e90dd;
     --third-color:#21E6C1;
     --white-color:#ffff;
     --black-color:#0e0d0d;
@@ -36,9 +36,10 @@
 }
 /*cada uno de los enlaces de mi menu*/
 .nav_links a{
-    text-decoration: none;
-    color: midnightblue;
+    text-decoration:none;
+    color: rgba(58, 59, 60, 0.78);
     border-radius: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .nav_links a:hover{
